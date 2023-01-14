@@ -1,0 +1,25 @@
+body{ 
+background-color: darkgrey;
+font-size: 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    align-items: center;
+    border-bottom: 3px;
+    color: red; 
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+a{
+    color: red;
+}
+a:hover{color: blue;}
+
+img {
+    border: 1px solid red;
+    padding: 10px 250px;
+    opacity: 0.5;
+}
