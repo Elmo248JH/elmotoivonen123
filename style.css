@@ -4,6 +4,20 @@ font-size: 18px;
 font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
+main{
+    display: flex;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+.sidenav{
+    margin: 10px;
+    background-color: aliceblue;    
+    min-width: 200px;
+}
+
 h1{
     align-items: center;
     border-bottom: 3px;
@@ -11,6 +25,26 @@ h1{
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
+}
+article {
+
+    flex: 1
+}
+
+article:nth-of-type(3) {
+    flex: 2;
+
+}
+
+.flexContainer{
+   display: flex;
+   background-color: bisque; 
+}
+
+.flexGrowContainer{
+    display: flex;
+    align-items: stretch;
+    background-color: blueviolet;
 }
 
 a{
